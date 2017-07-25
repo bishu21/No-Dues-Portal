@@ -1,0 +1,71 @@
+.header{
+    height:80px;
+    border:3px solid black;
+}
+#head1
+{
+    float: left;
+    margin-left: 10px;
+    height:80px;
+    width:20%;
+}
+.middle{
+    clear:left;
+    position: relative;
+    height:500px;
+}
+input[type=text],input[type=password], select {
+    width: 100%;
+    font-size: 15px;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=checkbox]{
+    zoom:1.5;
+    vertical-align: middle;
+}
+input[type=text]:focus,input[type=password]:focus {
+    background-color: lightblue;
+}
+label{
+    font-size: 20px;
+}
+input[type=submit] {
+    font-size: 20px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+#content {
+    position: absolute;
+    max-width: 30%;
+    left:35%;
+    top:3%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.footer{
+    border:3px solid black;
+    text-align: center; /*how this property is working*/
+    height:70px;
+}
+#foot{
+    font-size: 40px;
+}
+
+
